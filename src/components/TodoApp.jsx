@@ -60,7 +60,8 @@ const TodoApp = () => {
               <span className="task-date">
                 {new Date(task.date).toLocaleString()}
               </span>
-            </div>
+                  
+                          </div>
             <div className="task-actions">
               <button onClick={() => handleEditTask(task)}>Edit</button>
               <button onClick={() => handleDeleteTask(task.id)}>Delete</button>
